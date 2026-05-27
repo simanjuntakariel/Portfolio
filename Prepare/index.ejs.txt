@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | Ariel Valorie Simanjuntak</title>
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<!-- OVERLAY -->
+<div class="global-overlay"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+    <!-- LOGO -->
+    <div class="logo">
+        <img src="/images/riell3.png" alt="Logo Ariel">
+    </div>
+
+    <!-- MENU -->
+    <ul class="nav-menu">
+
+        <li>
+            <a href="#beranda" class="active">
+                Beranda
+            </a>
+        </li>
+
+        <li>
+            <a href="#keahlian">
+                Keahlian
+            </a>
+        </li>
+
+        <li>
+            <a href="#sertifikat">
+                Sertifikat
+            </a>
+        </li>
+
+        <li>
+            <a href="#kontak">
+                Kontak
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<!-- MAIN -->
+<main class="main-content">
+
+    <!-- HERO -->
+    <section class="hero-section" id="beranda">
+
+        <div class="container-hero">
+
+            <!-- TEXT -->
+            <div class="hero-text fade-in">
+
+                <h1>
+                    Ariel Valorie
+                    <span>Simanjuntak</span>
+                </h1>
+
+                <p class="subtitle">
+                    Teknik Informatika | Universitas Pamulang
+                </p>
+
+                <!-- ABOUT -->
+                <div class="about-card">
+<p>Halo, saya Ariel Valorie Simanjuntak, seorang mahasiswa Universitas Pamulang angkatan 2022/2023, Jurusan Teknik Informatika, Fakultas Ilmu Komputer, kelas Reguler Sabtu/CS.</p> <p>Saya memilih jurusan Teknik Informatika karena memiliki ketertarikan yang besar terhadap dunia teknologi, khususnya dalam pengembangan sistem, pemrograman, serta bagaimana teknologi dapat menciptakan solusi untuk mempermudah kehidupan manusia di era digital yang terus berkembang.</p> <p>Saya sangat antusias terhadap perkembangan teknologi masa depan seperti Artificial Intelligence (AI), Internet of Things (IoT), Cloud Computing, serta pengembangan aplikasi web dan mobile yang semakin menjadi bagian penting dalam kehidupan modern.</p> <p>Selama proses perkuliahan, saya telah mempelajari berbagai bahasa pemrograman dan teknologi dasar dalam pengembangan perangkat lunak, seperti UI/UX Design, HTML, CSS, JavaScript, C++, Python, Java, serta pengelolaan database menggunakan MySQL. Selain itu, saya juga memiliki pengalaman dalam penggunaan GitHub untuk version control dan VPS Server untuk deployment aplikasi.</p> <p>Tidak hanya di bidang pemrograman, saya juga menguasai beberapa tools pendukung seperti Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Figma untuk desain antarmuka, serta Adobe Lightroom untuk pengolahan visual.</p> <p>Saya memiliki semangat untuk terus berkembang dan mengeksplorasi lebih dalam dunia teknologi, khususnya dalam pengembangan web modern, backend system, cloud infrastructure, dan juga eksplorasi teknologi AI serta automation. Saya percaya bahwa proses belajar tidak pernah berhenti, dan saya akan terus meningkatkan kemampuan saya untuk menjadi seorang developer yang kompeten dan siap menghadapi tantangan industri teknologi masa depan.</p>
+                </div>
+
+                <!-- BUTTON -->
+                <div class="action-btns">
+
+                    <a href="/cv.pdf" class="btn-cv" target="_blank">
+
+                        <i class="fas fa-file-download"></i>
+
+                        Lihat CV
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- IMAGE -->
+            <div class="hero-image fade-in">
+
+                <div class="img-container">
+
+                    <img src="/images/riell.jpg" alt="Ariel Valorie">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section-skills" id="keahlian">
+
+        <div class="container-wide">
+
+            <h2 class="section-title">
+                Skills & Tools
+            </h2>
+
+            <div class="skills-panel">
+
+                <!-- PROGRAMMING -->
+                <div class="skills-group">
+
+                    <h3>
+                        Programming Skills
+                    </h3>
+
+                    <div class="skills-wrapper">
+
+                        <div class="skill-box">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- DIVIDER -->
+                <div class="skills-divider"></div>
+
+                <!-- OTHER -->
+                <div class="skills-group">
+
+                    <h3>
+                        Other Skills
+                    </h3>
+
+                    <div class="skills-wrapper">
+
+                        <div class="skill-box">
+                            <i class="fas fa-file-word"></i>
+                            <span>Word</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fas fa-file-excel"></i>
+                            <span>Excel</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fas fa-file-powerpoint"></i>
+                            <span>PowerPoint</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fas fa-camera-retro"></i>
+                            <span>Lightroom</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CERTIFICATE -->
+    <section class="section-cert" id="sertifikat">
+
+        <div class="container-wide">
+
+            <h2 class="section-title">
+                Sertifikat & Pelatihan
+            </h2>
+
+            <div class="cert-gallery-grid">
+
+                <!-- CERT 1 -->
+                <div class="cert-card">
+
+                    <div class="cert-img-box">
+
+                        <img src="/images/Sertifikat1.jpg" alt="Sertifikat">
+
+                        <div class="cert-overlay">
+
+                            <a href="/images/Sertifikat1.jpg" target="_blank" class="zoom-icon">
+
+                                <i class="fas fa-search-plus"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CERT 2 -->
+                <div class="cert-card">
+
+                    <div class="cert-img-box">
+
+                        <img src="/images/Sertifikat2.jpg" alt="Sertifikat">
+
+                        <div class="cert-overlay">
+
+                            <a href="/images/Sertifikat2.jpg" target="_blank" class="zoom-icon">
+
+                                <i class="fas fa-search-plus"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CERT 3 -->
+                <div class="cert-card">
+
+                    <div class="cert-img-box">
+
+                        <img src="/images/Sertifikat3.jpg" alt="Sertifikat">
+
+                        <div class="cert-overlay">
+
+                            <a href="/images/Sertifikat3.jpg" target="_blank" class="zoom-icon">
+
+                                <i class="fas fa-search-plus"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CERT 4 -->
+                <div class="cert-card">
+
+                    <div class="cert-img-box">
+
+                        <img src="/images/Sertifikat4.jpg" alt="Sertifikat">
+
+                        <div class="cert-overlay">
+
+                            <a href="/images/Sertifikat4.jpg" target="_blank" class="zoom-icon">
+
+                                <i class="fas fa-search-plus"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CERT 5 -->
+                <div class="cert-card">
+
+                    <div class="cert-img-box">
+
+                        <img src="/images/Sertifikat5.jpg" alt="Sertifikat">
+
+                        <div class="cert-overlay">
+
+                            <a href="/images/Sertifikat5.jpg" target="_blank" class="zoom-icon">
+
+                                <i class="fas fa-search-plus"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CERT 51 -->
+                <div class="cert-card">
+
+                    <div class="cert-img-box">
+
+                        <img src="/images/Sertfikat51.jpg" alt="Sertifikat">
+
+                        <div class="cert-overlay">
+
+                            <a href="/images/Sertfikat51.jpg" target="_blank" class="zoom-icon">
+
+                                <i class="fas fa-search-plus"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section-contact" id="kontak">
+
+        <div class="container-wide">
+
+            <h2 class="section-title">
+                Contact
+            </h2>
+
+            <div class="contact-panel">
+
+                <h3>
+                    Let's Connect
+                </h3>
+
+                <p>
+                    Silakan hubungi saya melalui sosial media berikut untuk
+                    diskusi, kerja sama, project, atau berbagi ide
+                    tentang teknologi dan pengembangan web.
+                </p>
+
+                <div class="social-links">
+
+                    <!-- WHATSAPP -->
+                    <a href="https://wa.me/6282128994830" target="_blank">
+
+                        <i class="fab fa-whatsapp"></i>
+
+                        <span>WhatsApp</span>
+
+                    </a>
+
+                    <!-- LINKEDIN -->
+                    <a href="https://www.linkedin.com/in/ariel-valorie-simanjuntak-3a75a2354/?skipRedirect=true" target="_blank">
+
+                        <i class="fab fa-linkedin"></i>
+
+                        <span>LinkedIn</span>
+
+                    </a>
+
+                    <!-- INSTAGRAM -->
+                    <a href="https://instagram.com/arielvalorie_" target="_blank">
+
+                        <i class="fab fa-instagram"></i>
+
+                        <span>Instagram</span>
+
+                    </a>
+
+                    <!-- FACEBOOK -->
+                    <a href="https://www.facebook.com/ariel.smnjtak?locale=id_ID" target="_blank">
+
+                        <i class="fab fa-facebook"></i>
+
+                        <span>Facebook</span>
+
+                    </a>
+
+                    <!-- X -->
+                    <a href="https://x.com/Ariell_Valorie" target="_blank">
+
+                        <i class="fab fa-x-twitter"></i>
+
+                        <span>X Twitter</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+    &copy; 2026 Ariel Valorie Simanjuntak
+</footer>
+
+</body>
+</html>
